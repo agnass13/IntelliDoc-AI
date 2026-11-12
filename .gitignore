@@ -1,0 +1,40 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment Configuration
+.env
+.env.local
+
+# Dynamic Data & Uploads (keep directories, ignore contents)
+data/*
+!data/.gitkeep
+
+# Vector Database Storage
+vector_db/*
+!vector_db/.gitkeep
+.chroma/
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+# Additional generated and local-only files
+.env.*
+!.env.example
+.streamlit/credentials.toml
+*.egg-info/
+build/
+dist/
+.coverage
